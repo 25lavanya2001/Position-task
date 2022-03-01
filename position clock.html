@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock using Position</title>
+    <style>
+        body{
+            background-image: url("../../Desktop/Images/Hotel_Europa_Riva_del_Garda_684fde2cb0d3cab8d535cc8a0e2285cb.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        div{
+            height: 280px;
+            width: 280px;
+            background-color: rgb(19, 19, 71);
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 900px;
+        }
+        p{
+            color: rgb(255, 186, 10);
+            font-size: 28px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        svg{
+            margin: auto;
+            position: absolute;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <p style="position: absolute;top:-10px;left: 130px;">12</p>
+      <p style="position: absolute;top:14px;left: 190px;">1</p>
+      <p style="position: absolute;top:47px;left: 222px;">2</p>
+      <p style="position: absolute;top:94px;right: 26px;">3</p>
+      <p style="position: absolute;top:143px;left: 222px;">4</p>
+      <p style="position: absolute;top:180px;left: 182px;">5</p>
+      <p style="position: absolute;top:200px;left: 134px;">6</p>
+      <p style="position: absolute;top:180px;left: 82px;">7</p>
+      <p style="position: absolute;top:143px;left: 44px;">8</p>
+      <p style="position: absolute;top:94px;left: 28px;">9</p>
+      <p style="position: absolute;top:47px;left: 40px;">10</p>
+      <p style="position: absolute;top:12px;left: 76px;">11</p>
+      <svg height="280" width="280" style="border-color: bisque;">
+          <circle cx="140" cy="140" r="5" stroke="yellow" fill="yellow" ></circle>
+          <polyline points="60,140 140,140" style="stroke-width: 4px; stroke:yellow;"></polyline>
+          <polyline points="140,140 175,95" style="stroke-width: 4px; stroke:yellow;"></polyline>
+        </svg>
+   </div>    
+</body>
+</html>
